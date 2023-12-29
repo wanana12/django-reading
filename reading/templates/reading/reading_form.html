@@ -1,0 +1,13 @@
+{% extends 'reading/base.html' %}
+
+{% block header %}
+{% endblock header %}
+
+{% block content %}
+<form action="" method="POST">{% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <button type="submit" class="btn btn-outline-success my-3">決定</button>
+</form>
+{% endblock content %}

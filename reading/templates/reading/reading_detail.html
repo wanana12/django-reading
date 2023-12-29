@@ -1,0 +1,14 @@
+{% extends 'reading/base.html' %}
+
+{% block header %}
+<h1>詳細</h1>
+{% endblock header %}
+
+{% block content %}
+<div>
+    <h2>{{reading.title}}</h2>
+    <p>{{reading.writer}}</p>
+    <p>{{reading.date}}</p>
+    <p>{{reading.memo}}</p>
+</div>
+{% endblock content %}

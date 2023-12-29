@@ -1,0 +1,12 @@
+{% extends 'reading/base.html' %}
+
+{% block header %}
+<h1>削除</h1>
+{% endblock header %}
+
+{% block content %}
+<form action="" method="POST">{% csrf_token %}
+    <p>{{reading}}</p>
+    <button type="submit" class="btn btn-outline-danger">削除</button>
+</form>
+{% endblock content %}
