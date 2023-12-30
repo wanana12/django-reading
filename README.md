@@ -15,4 +15,9 @@ Python 3.12.1
 ```
 % pip install -r requirements.txt
 % python -m django --version
+5.0
+```
+```
+% python manage.py migrate
+% python manage.py runserver
 ```
