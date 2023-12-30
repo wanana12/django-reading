@@ -1,4 +1,5 @@
 # django-reading
+読書メモアプリ
 
 ```
 % python3 -V
