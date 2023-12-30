@@ -24,9 +24,15 @@ Python 3.12.1
 
 # 参考文献
 https://docs.djangoproject.com/ja/5.0/topics/install/
+
 https://tech-diary.net/django-todo-tutorial/
+
 https://qiita.com/white1107/items/5063d38cd5474b412e3e
+
 https://getbootstrap.jp/docs/5.3/getting-started/introduction/
+
 https://fonts.google.com/noto/specimen/Noto+Sans+JP
+
 https://getbootstrap.jp/docs/5.3/components/buttons/
+
 https://github.com/hayatasuuu/djangotodo
